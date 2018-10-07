@@ -1,7 +1,7 @@
 import React from 'react';
 import {Bar} from 'react-chartjs-2';
 
-const BarChart = (props) => {
+const BarMixChart = (props) => {
 
     const optionsLocal = {
         maintainAspectRatio: false,
@@ -79,4 +79,4 @@ const BarChart = (props) => {
     </div>
 };
 
-export default BarChart;
+export default BarMixChart;
